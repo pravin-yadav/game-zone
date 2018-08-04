@@ -11,7 +11,6 @@ class Games extends React.PureComponent {
   render() {
     return (
       <div>
-        <h1>Feel the real games!!!</h1>
         <GamesList games={this.props.games} />
       </div>
     );

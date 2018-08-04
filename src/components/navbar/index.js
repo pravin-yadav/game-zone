@@ -10,7 +10,7 @@ const Navbar = () => {
       <Link className="item" exact to="/games">
         Games
       </Link>
-      <Link className="item" exact to="/games/newgames">
+      <Link className="item" exact to="/games/new">
         Add New game
       </Link>
     </div>
