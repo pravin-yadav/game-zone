@@ -31,8 +31,7 @@ class GameForm extends React.PureComponent {
     if (isValid) {
       const { title, cover } = this.state;
       this.setState({ loading: true });
-      this.props.saveGame({ title, cover });
-      this.setState({ done: true });
+      this.props.saveGame({ title, cover }).then(this.setState({ done: true }));
     }
   };
   render() {

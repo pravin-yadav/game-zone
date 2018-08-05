@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
 import games from './games';
+import todos from './todo';
 
 const rootReducer = combineReducers({
-  games
+  games,
+  todos
 });
 
 export default rootReducer;
